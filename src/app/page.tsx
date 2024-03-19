@@ -1,9 +1,7 @@
-import { NextPage } from 'next'
+import React from "react";
 
-interface Props {}
+const page = () => {
+  return <div className="font-bold">page</div>;
+};
 
-const Page: NextPage<Props> = ({}) => {
-  return <div>Hello World!</div>
-}
-
-export default Page
+export default page;
