@@ -5,18 +5,12 @@ import About from "./components/About";
 import GetApp from "./components/Get App";
 import Footer from "./components/Footer";
 
-interface Props {}
-
-const Page: NextPage<Props> = ({}) => {
-  return (
-    <div>
-      <Home />
-      <Services />
-      <About />
-      <GetApp />
-      <Footer />
-    </div>
-  );
+const page = () => {
+  return <div className="font-bold">page</div>;
 };
 
-export default Page;
+const Page: NextPage<Props> = ({}) => {
+  return <div>Hello World!</div>
+}
+
+export default Page
