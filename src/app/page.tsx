@@ -9,7 +9,7 @@ interface Props {}
 
 const Page: NextPage<Props> = ({}) => {
   return (
-    <div>
+    <div className="font-Urbanist">
       <Home />
       <Services />
       <About />

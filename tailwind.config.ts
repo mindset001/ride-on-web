@@ -7,7 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   "Home-bg": "",
+      // },
+      fontFamily: {
+        Urbanist : ["Urbanist", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
